@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "akshar",
+      "gender": "male"
+    },
+    {
+      "id": "2",
+      "name": "krunal",
+      "gender": "male"
+    },
+    {
+      "id": "3",
+      "name": "new",
+      "gender": "male"
+    },
+    {
+      "id": "4",
+      "name": "vipul",
+      "gender": "male"
+    }
+  ]
+}

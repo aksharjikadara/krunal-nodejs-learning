@@ -1,14 +1,9 @@
 const express = require('express');
 router = express.Router();
 
-const userController = require('../controller/user')
-const notFoundController = require('../controller/404')
+const { createUser, getAllUsers} = require('../controller/user')
 
-router.get('/', userController)
-router.get('*', notFoundController)
+router.post('/user/create', createUser)
+router.get('/user/getAll', getAllUsers)
 
 module.exports = router
-
-
-
-
